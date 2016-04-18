@@ -13,13 +13,3 @@ sbt '~run-main example'
 
 Now SBT will check the the proofs in `example.scala` every time you save the
 file.  Experiment, add new lemmas, and see what happens!
-
-## Dependencies
-
-This project requires the 2.1-SNAPSHOT version of GAPT, which is not yet
-released.  In the meantime, you have to install GAPT manually:
-```
-git clone https://github.com/gapt/gapt
-cd gapt
-sbt publish-local
-```

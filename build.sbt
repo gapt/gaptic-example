@@ -1,5 +1,6 @@
 name := "gaptic-example"
-version := "2.0"
+version := "2.1"
 scalaVersion := "2.11.8"
 
-libraryDependencies += "at.logic.gapt" %% "gapt" % "2.1-SNAPSHOT"
+resolvers += Resolver.jcenterRepo
+libraryDependencies += "at.logic.gapt" %% "gapt" % "2.1"
