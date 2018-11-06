@@ -1,6 +1,6 @@
 name := "gaptic-example"
 version := "2.3"
-scalaVersion := "2.11.8"
+scalaVersion := "2.12.7"
 
-resolvers += Resolver.jcenterRepo
-libraryDependencies += "at.logic.gapt" %% "gapt" % "2.3"
+resolvers += Resolver.bintrayRepo("gapt", "maven")
+libraryDependencies += "at.logic.gapt" %% "gapt" % "2.12"
